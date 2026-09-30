@@ -1,0 +1,353 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-details</title>
+    <link rel="icon" href="canon-logo-d87d3133289dae21ded89f1d268f37d5.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <!--=================
+      header-navbar
+    ====================-->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="home.html">
+            <img src="canon-logo-d87d3133289dae21ded89f1d268f37d5.png" alt="Canon logo" style="height: 70px; width: 130px;" />
+          </a>
+
+          <!--=====================
+             page navigation links
+          ======================-->
+          <div class="d-flex justify-content-center flex-grow-1">
+            <ul class="navbar-nav flex-row align-items-center">
+              <li class="nav-item px-2"><a class="nav-link active text-danger" href="home.html">Home</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="shop.html">Shop</a></li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="home.html">Home</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+                  <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-2"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          
+          <!--=================
+              nav-icons
+          =====================-->
+          
+          <div class="d-flex align-items-center justify-content-end gap-5">
+            <form class="d-flex align-items-center gap-2">
+              <input class="form-control border-danger" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+            <div class="d-flex align-items-center gap-2">
+              <a href="login.html" class="nav-icon-btn text-decoration-none" aria-label="Login"><i class="fa-regular fa-user text-secondary h4"></i></a>
+              <button type="button" class="btn  position-relative">
+                <a href="wishlist.html"><i class="fa-regular fa-heart text-secondary h4"></i></a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn  position-relative">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping text-secondary h4"></i></a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+            <a href="shop.html" class="btn btn-danger d-none d-lg-inline-flex">Shop Now</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="page-header bg-dark">
+  <div class="container p-4 ">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-self-center gap-2">
+      <h1 class="text-white ">EOS R6 Mark III (Body)</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb ">
+          <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none text-white">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Shop</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section>
+<main>
+<section class="section" >
+  <div class="container">
+    <div class="row g-5" style="margin-top: 100px;">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="height: 500px; width: 500px; display: inline;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="77ed33b788b8459b8c2a9d0d9326e3e3_EOS+R6+Mark+III+Front+Slant.png" class="d-block w-100" alt="cam">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="cam4(1).png" class="d-block w-100" alt="cam4(1)">
+           
+          </div>
+          <div class="carousel-item">
+            <img src="cam4(2).png" class="d-block w-100" alt="cam4(2)">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="cam4(3).png" class="d-block w-100" alt="cam4(3)">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="cam4(4).png" class="d-block w-100" alt="cam4(4)">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="cam4(5).png" class="d-block w-100" alt="cam4(5)">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="col-lg-6">
+        <div class="product-category mb-2">Camera</div>
+        <h1 class="h2 mb-2">EOS R6 Mark III (Body)</h1>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <div class="rating-stars"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i></div>
+          <span class="small text-secondary">4.9 (128 reviews)</span>
+          <span class="vr"></span>
+          <span class="small text-success"><i class="fa-solid fa-circle-check"></i> In Stock</span>
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-4">
+          <span class="h3 mb-0 fw-bold"><sup>MRP</sup>Rs. 178 995.00/U</span>
+          <span class="fs-5 text-secondary text-decoration-line-through"><sup>MRP</sup>Rs. 278 995.00/U</span>
+          <span class="badge-sale">Save 50%</span>
+        </div>
+        <p class="text-secondary mb-4">Immersive 40mm drivers, adaptive noise cancellation and up to 40 hours of battery life. Aero folds flat for travel and pairs instantly with the Canon app for custom configration.</p>
+        
+        <div class="d-flex align-items-center gap-3 mb-4">
+          <div class="input-group qty-input">
+            <button class="btn btn-outline-secondary" type="button" data-qty-dec>&minus;</button>
+            <input type="text" class="form-control text-center" value="1" readonly>
+            <button class="btn btn-outline-secondary" type="button" data-qty-inc>+</button>
+          </div>
+          <button class="btn btn-danger flex-grow-1" style="width: 200px;"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+          <button class="product-action-btn js-wishlist-toggle border rounded-circle p-1" title="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <a href="checkout.html" class="btn btn-outline-dark  w-100 mb-4">Buy It Now</a>
+        <ul class="list-unstyled small text-secondary mb-0">
+          <li class="mb-2"><i class="bi bi-truck text-primary-vx me-2"></i>Free shipping on orders over $60</li>
+          <li class="mb-2"><i class="bi bi-arrow-repeat text-primary-vx me-2"></i>30-day hassle-free returns</li>
+          <li><i class="bi bi-shield-check text-primary-vx me-2"></i>2-year limited warranty</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-5">
+      <ul class="nav nav-tabs border-bottom" role="tablist">
+        <li class="nav-item"><button class="nav-link active text-dark" data-bs-toggle="tab" data-bs-target="#tab-desc" type="button">Description</button></li>
+        <li class="nav-item"><button class="nav-link text-dark" data-bs-toggle="tab" data-bs-target="#tab-specs" type="button">Specifications</button></li>
+        <li class="nav-item"><button class="nav-link text-dark" data-bs-toggle="tab" data-bs-target="#tab-reviews" type="button">Reviews (128)</button></li>
+      </ul>
+      <div class="tab-content pt-4">
+        <div class="tab-pane fade show active" id="tab-desc">
+          <p class="text-secondary">Aero was built for people who live in their headphones — commuters, remote workers and travelers who need audio that keeps up. Adaptive ANC automatically adjusts to your environment, while the memory-foam ear cushions keep things comfortable through the longest of days.</p>
+          <ul class="text-secondary">
+            <li>40mm dynamic drivers tuned for balanced, detailed sound</li>
+            <li>Hybrid active noise cancellation with transparency mode</li>
+            <li>Up to 40 hours playback, 5-minute quick charge = 4 hours</li>
+            <li>Bluetooth 5.3 multipoint pairing</li>
+            <li>Foldable design with premium travel case included</li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="tab-specs">
+          <table class="table">
+            <tbody>
+              <tr><th class="w-25">Driver Size</th><td>40mm Dynamic</td></tr>
+              <tr><th>Battery Life</th><td>Up to 40 hours (ANC on: 30 hours)</td></tr>
+              <tr><th>Connectivity</th><td>Bluetooth 5.3, 3.5mm wired</td></tr>
+              <tr><th>Weight</th><td>254g</td></tr>
+              <tr><th>Charging</th><td>USB-C, quick charge supported</td></tr>
+              <tr><th>Water Resistance</th><td>IPX4</td></tr>
+              <tr><th>In the Box</th><td>Headphones, travel case, USB-C cable, 3.5mm cable</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane fade" id="tab-reviews">
+          <div class="d-flex align-items-center gap-4 mb-4">
+            <div class="text-center">
+              <div class="display-5 fw-bold">4.9</div>
+              <div class="rating-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+              <div class="small text-secondary">128 reviews</div>
+            </div>
+            <div class="flex-grow-1">
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="small">5★</span><div class="progress flex-grow-1" style="height:6px"><div class="progress-bar bg-warning" style="width:82%"></div></div></div>
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="small">4★</span><div class="progress flex-grow-1" style="height:6px"><div class="progress-bar bg-warning" style="width:12%"></div></div></div>
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="small">3★</span><div class="progress flex-grow-1" style="height:6px"><div class="progress-bar bg-warning" style="width:4%"></div></div></div>
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="small">2★</span><div class="progress flex-grow-1" style="height:6px"><div class="progress-bar bg-warning" style="width:1%"></div></div></div>
+              <div class="d-flex align-items-center gap-2 mb-1"><span class="small">1★</span><div class="progress flex-grow-1" style="height:6px"><div class="progress-bar bg-warning" style="width:1%"></div></div></div>
+            </div>
+          </div>
+          <div class="border-top pt-4 mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <div class="d-flex align-items-center gap-2">
+                <img src="assets/img/avatars/avatar-2.svg" class="rounded-circle" width="40" height="40" alt="Alicia Kim">
+                <div><div class="fw-semibold">Alicia Kim</div><div class="rating-stars small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div>
+              </div>
+              <span class="small text-secondary">2 weeks ago</span>
+            </div>
+            <p class="text-secondary mb-0">Best headphones I've owned. The ANC is genuinely quiet enough for open-plan offices and flights.</p>
+          </div>
+          <div class="border-top pt-4 mb-4">
+            <div class="d-flex justify-content-between mb-2">
+              <div class="d-flex align-items-center gap-2">
+                <img src="assets/img/avatars/avatar-4.svg" class="rounded-circle" width="40" height="40" alt="Ryan Lee">
+                <div><div class="fw-semibold">Ryan Lee</div><div class="rating-stars small"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></div></div>
+              </div>
+              <span class="small text-secondary">1 month ago</span>
+            </div>
+            <p class="text-secondary mb-0">Comfortable for long sessions and the battery life claims are accurate. Wish the case was a bit slimmer.</p>
+          </div>
+          <h6 class="mt-5 mb-3">Write a Review</h6>
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-12">
+              <label class="form-label d-block">Your Rating</label>
+              <div class="rate-stars-input fs-4">
+                <i class="bi bi-star js-rate-star" role="button"></i><i class="bi bi-star js-rate-star" role="button"></i><i class="bi bi-star js-rate-star" role="button"></i><i class="bi bi-star js-rate-star" role="button"></i><i class="bi bi-star js-rate-star" role="button"></i>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Name</label>
+              <input type="text" class="form-control" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Review</label>
+              <textarea class="form-control" rows="4" required></textarea>
+              <div class="invalid-feedback">Please write a short review.</div>
+            </div>
+            <div class="col-12"><button class="btn btn-primary-vx" type="submit">Submit Review</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--===================
+                  footer
+          ====================-->
+          <section class="container-fulid">
+            <footer class="site-footer pt-5 text-white" style="background-color: black; ">
+              <div class="container py-4">
+                <div class="row g-4">
+                    
+                  <!--brand-social-contact-->
+                  <div class="col-lg-4 col-md-6">
+                    <img src="canon-logo-d87d3133289dae21ded89f1d268f37d5.png" alt="canon" height="34" class="mb-3">
+                    <p class="mb-3">Canon Inc. is a Japanese multinational corporation specializing in optical, imaging, and industrial products, including cameras, lenses, printers, and medical equipment. You can explore their official About Canon page to learn more about their corporate structure and global vision.</p>
+                    <div class="d-flex gap-3">
+                      <a href="#" class="social-btn"><i class="fa-brands fa-square-facebook text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-twitter text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-square-instagram text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-youtube text-danger"></i></a>
+                    </div>
+                  </div>
+                          
+                  <!--shop-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Shop</h4>
+                    <ul class="list-unstyled footer-links">
+                      <li><a href="shop.html" class="text-decoration-none text-white">All Products</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Photography</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Printing</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Scanning</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Cinematography Solutions</a></li>
+                    </ul>
+                  </div>
+
+                  <!--company-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled footer-links text-decoration-none">
+                      <li><a href="about.html" class="text-decoration-none text-white">About Us</a></li>
+                      <li><a href="blog.html" class="text-decoration-none text-white">Blog</a></li>
+                      <li><a href="contact.html" class="text-decoration-none text-white">Contact</a></li>
+                      <li><a href="faq.html" class="text-decoration-none text-white">FAQ</a></li>
+                    </ul>
+                  </div>
+                          
+                  <!--account-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Account</h4>
+                    <ul class="list-unstyled footer-links text-decoration-none">
+                      <li><a href="login.html" class="text-decoration-none text-white">Login</a></li>
+                      <li><a href="register.html" class="text-decoration-none text-white">Register</a></li>
+                      <li><a href="cart.html" class="text-decoration-none text-white">Cart</a></li>
+                      <li><a href="wishlist.html" class="text-decoration-none text-white">Wishlist</a></li>
+                    </ul>
+                  </div>
+ 
+                  <!--newsletter-->
+                  <div class="col-lg-2 col-md-6">
+                    <h4>Newsletter</h4>
+                    <p class="small mb-2">Get gadget drops &amp; deals in your inbox.</p>
+                    <form class="js-newsletter-form">
+                      <div class="input-group input-group-sm mb-2">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                        <button class="btn btn-danger" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                      </div>
+                      <div class="newsletter-msg small text-success d-none"></div>
+                    </form>
+                  </div>
+ 
+                </div>
+              </div>
+ 
+              <!--footer-bottom-->
+              <div class="footer-bottom" >
+                <div class="payment-icons" style="display: flex; justify-content: center;"><i class="fa-brands fa-cc-visa p-3"></i><i class="fa-brands fa-cc-paypal p-3"></i><i class="fa-brands fa-apple p-3"></i><i class="fa-brands fa-google p-3"></i></div>
+                <div class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+                  <div class="footer-credit">&copy; 2026 Canon. All rights reserved. Website by <a href="https://in.canon/en/consumer" class="text-danger" target="_blank" rel="noopener">Canon India.</a></div>
+                </div>
+              </div>
+                      
+            </footer>
+          </section>
+                
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

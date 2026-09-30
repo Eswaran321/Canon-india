@@ -1,0 +1,1011 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon - shop</title>
+    <link rel="icon" href="canon-logo-d87d3133289dae21ded89f1d268f37d5.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    
+     <!--=================
+      header-navbar
+    ====================-->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
+        <div class="container-fluid px-4">
+          <a class="navbar-brand" href="home.html">
+            <img src="canon-logo-d87d3133289dae21ded89f1d268f37d5.png" alt="Canon logo" style="height: 70px; width: 130px;" />
+          </a>
+
+          <!--=====================
+             page navigation links
+          ======================-->
+          <div class="d-flex justify-content-center flex-grow-1">
+            <ul class="navbar-nav flex-row align-items-center">
+              <li class="nav-item px-2"><a class="nav-link" href="home.html">Home</a></li>
+              <li class="nav-item px-2"><a class="nav-link Active text-danger" href="shop.html">Shop</a></li>
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="home.html">Home</a></li>
+                  <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="Wishlist.html">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="Cart.html">Cart</a></li>
+                  <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-2"><a class="nav-link" href="blog.html">Blog</a></li>
+              <li class="nav-item px-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          
+          <!--=================
+              nav-icons
+          =====================-->
+          
+          <div class="d-flex align-items-center justify-content-end gap-5">
+            <form class="d-flex align-items-center gap-2">
+              <input class="form-control border-danger" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+            <div class="d-flex align-items-center gap-2">
+              <a href="login.html" class="nav-icon-btn text-decoration-none" aria-label="Login"><i class="fa-regular fa-user text-secondary h4"></i></a>
+              <button type="button" class="btn  position-relative">
+                <a href="wishlist.html"><i class="fa-regular fa-heart text-secondary h4"></i></a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+              <button type="button" class="btn  position-relative ">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping text-secondary h4"></i></a>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            </div>
+            <a href="shop.html" class="btn btn-danger d-none d-lg-inline-flex">Shop Now</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="page-header bg-dark" style="height: 100px;">
+  <div class="container p-4 ">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-self-center gap-2">
+      <h1 class="text-white ">Shop</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb ">
+          <li class="breadcrumb-item"><a href="home.html" class="text-decoration-none text-white">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Shop</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section>
+
+    <main>
+      <section class="section-py p-2">
+        <div class="container m-0">
+          <div class="row g-3">
+
+            <aside class="col-lg-3">
+
+              <div class="sidebar-widget filter-widget">
+                <h6 class="widget-title">Products</h6>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="b1" checked><label class="form-check-label" for="b1">Photography</label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="b2"><label class="form-check-label" for="b2">Printing</label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="b3"><label class="form-check-label" for="b3">Scanning</label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="b4"><label class="form-check-label" for="b4">Cinematography Solutions</label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="b5"><label class="form-check-label" for="b5">Others</label></div>
+              </div>
+
+              
+      
+              <div class="sidebar-widget filter-widget">
+                <h6 class="widget-title">Price Range</h6>
+                <input type="range" class="form-range " min="0" max="1500" value="750">
+                <div class="d-flex justify-content-between small text-secondary mb-2"><span>&#8377;2K</span><span>&#8377;4L</span></div>
+              </div>
+      
+              <div class="sidebar-widget filter-widget">
+                <h6 class="widget-title">Categories</h6>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat1" checked><label class="form-check-label" for="cat1">DSLR Cameras<span class="text-secondary">(24)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat2"><label class="form-check-label" for="cat2">MIRRORLESS Cameras<span class="text-secondary">(16)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat3"><label class="form-check-label" for="cat3">Professional Cinema Cameras<span class="text-secondary">(9)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat4"><label class="form-check-label" for="cat4">Digital Compact Cameras<span class="text-secondary">(18)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat5"><label class="form-check-label" for="cat5">Lenses: RF, EF<span class="text-secondary">(12)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat6"><label class="form-check-label" for="cat6">PRINTERS<span class="text-secondary">(11)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat7"><label class="form-check-label" for="cat7">ACCESSORIES<span class="text-secondary">(14)</span></label></div>
+                <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="cat8"><label class="form-check-label" for="cat8">Others<span class="text-secondary">(3)</span></label></div>
+              </div>
+      
+              <div class="sidebar-widget filter-widget">
+                <h6 class="widget-title">Color</h6>
+                <div class="d-flex gap-2">
+                  <span class="color-switch" style="background:#111827"></span>
+                  <span class="color-switch" style="background:#5B5FEF"></span>
+                  <span class="color-switch" style="background:#E11D48"></span>
+                  <span class="color-switch" style="background:#F59E0B"></span>
+                  <span class="color-switch" style="background:#16A34A"></span>
+                  <span class="color-switch" style="background:#ffffff"></span>
+                </div>
+              </div>
+      
+      <div class="sidebar-widget filter-widget">
+        <h6 class="widget-title">Rating</h6>
+        <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="r5"><label class="form-check-label" for="r5"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>&amp; up</label></div>
+        <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="r4"><label class="form-check-label" for="r4"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i></i>&amp; up</label></div>
+        <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="r3"><label class="form-check-label" for="r3"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i><i class="fa-regular fa-star text-warning"></i></i>&amp; up</label></div>
+        <div class="form-check mb-2"><input class="form-check-input" type="checkbox" id="r2"><label class="form-check-label" for="r2"><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star-half-stroke text-warning"></i><i class="fa-regular fa-star text-warning"></i><i class="fa-regular fa-star text-warning"></i>&amp; up</label></div>
+      </div>
+      <button class="btn btn-danger w-100">Apply Filters</button>
+      </aside>
+      <div class="container-fulid col-lg-9">
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-3 mb-4 pb-3 border-bottom">
+          <div class="text-secondary ">Showing 1&ndash;20 of 52 results</div>
+          <div class="d-flex align-items-center gap-3 ">
+            <select class="form-select sort-select " style="width:auto">
+              <option>Sort by: Popularity</option>
+              <option>Sort by: Price Low to High</option>
+              <option>Sort by: Price High to Low</option>
+              <option>Sort by: Newest</option>
+              <option>Sort by: Rating</option>
+            </select>
+            <div class="btn-group" role="group">
+              <button class="btn btn-outline-dark btn-m active"><i class="fa-solid fa-grip"></i></button>
+              <button class="btn btn-outline-dark btn-m"><i class="fa-solid fa-list"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <!--card-1-->
+          <h1>Photography</h1>
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(77ed33b788b8459b8c2a9d0d9326e3e3_EOS+R6+Mark+III+Front+Slant.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;"></a>
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">30% off</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">camera</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+           <!--card-2-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0"  style="border: 2px solid; border-radius: 15px; max-width: 300pX;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(cam2.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">camera</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <!--card-3-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(cam3.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-danger text-white ps-1 pb-1 pe-1 rounded ">Trending</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">camera</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--card-4-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(cam1.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-danger text-white ps-1 pb-1 pe-1 rounded ">Trending</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">camera</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <!--card-1-->
+          <h1>Printers</h1>
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(printer1.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">printer
+                      </div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i>
+                      </div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                      
+          <!--card-2-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300pX;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(printer2.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">printer</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      <div class="product-price">
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <!--card-3-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(printer3.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-danger text-white ps-1 pb-1 pe-1 rounded ">20% off</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">printer</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+           <!--card-4-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(printer4.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">printer</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+<!--card-1-->
+<h1>Scanners</h1>
+          <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(scanner1.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">sacnner</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <!--card-2-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300pX;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(scanner2.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">scanner</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+          <!--card-3-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(scanner3.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">scanner</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    
+          <!--card-4-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(scanner4.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">scanner</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style=" height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+          <!--card-1-->
+          <h1>Cinematography Solutions</h1>
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(lens1.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Lens</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-2-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(lens2.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Lens</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid"  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-3-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(lens3.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Lens</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-4-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(lens4.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Lens</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-1-->
+          <h1>Accessories</h1>
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(asscess1.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Accessories</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             
+
+          <!--card-2-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(asscess2.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Accessories</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-3-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(asscess3.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Accessories</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+          <!--card-4-->
+                <div class="col-6 col-md-4 col-lg-3 m-2 p-0" style="border: 2px solid; border-radius: 15px; max-width: 300px;">
+                  <div class="product-card" >
+                    <div class="product-thumb" style="height: 250px; background-image:url(asscess4.png); background-repeat: no-repeat; background-size:contain; border-top-left-radius: 15px; border-top-right-radius: 15px; max-width: auto; max-height:auto;">
+                      <div class="product-badges ps-3 pt-3 "><span class="badge-new bg-success text-white ps-1 pb-1 pe-1 rounded ">New</span>
+                        <div class="product-actions " style="display:grid; justify-content: end;">
+                          <div class="container pt-2">
+                            <div class="col">
+                              <div class="row p-1">
+                                <button class="product-action-btn js-wishlist-toggle  d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px ; background-color: white; border-color: transparent;" title="Add to wishlist "><i class="fa-regular fa-heart"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <button class="product-action-btn  d-flex justify-content-center" style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; background-color: white; border-color: transparent;" title="Quick view" data-bs-toggle="tooltip"><i class="fa-regular fa-eye"></i></button>
+                              </div>
+                              <div class="row p-1">
+                                <a href="product-detail.html" class=" product-action-btn d-flex justify-content-center " style="align-items: center; height: 15px; width: 15px; border-radius: 50px; padding: 15px; border: 2px solid; background-color: white; border-color: transparent; text-decoration: none;" title="Compare"><i class="fa-solid fa-arrow-right-arrow-left" style="color: black; "></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-body " style="height:210px;">
+                      <div class="product-category secondary p-2">Accessories</div>
+                      <h3 class="product-title ps-2"><a href="product-detail.html" style="color: black; text-decoration: none;">EOS R8 Mark II</a></h3>
+                      <div class="rating-stars mb-2 ps-2"><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star" style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i><i class="fa-solid fa-star"style="color: gold;"></i></div>
+                      <div class="product-price">
+                        <span class="current ps-2"><sup>MRP</sup>Rs. 178 995.00/U</span><span class="old"></span>
+                      </div> 
+                      <div class="container-fulid "  >
+                        <button class="add-to-cart-btn w-100  bg-dark text-white flex-column-reverse" style="height: 50px; margin-top: 30px; overflow-y: hidden; border-color: transparent; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;" ><i class="fa-solid fa-cart-arrow-down"></i> Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            
+
+        </div>
+ 
+      </div>
+    </div>
+  </div>
+  <nav class="mt-5" aria-label="Shop pagination" >
+          <ul class="pagination d-flex justify-content-center" >
+            <li class="page-item disabled"><a class="page-link" href="#" style="border-color:transparent;"><i class="fa-solid fa-chevron-left p-1" ></i></a></li>
+            <li class="page-item active"><a class="page-link bg-danger" href="#" style="border-color:transparent;">1</a></li>
+            <li class="page-item"><a class="page-link text-dark" href="#" style="border-color:transparent;">2</a></li>
+            <li class="page-item"><a class="page-link text-dark" href="#" style="border-color:transparent;">3</a></li>
+            <li class="page-item"><a class="page-link text-dark" href="#" style="border-color:transparent;"><i class="fa-solid fa-chevron-right p-1"></i></a></li>
+          </ul>
+        </nav>
+      </section>
+
+    <!--===================
+                  footer
+          ====================-->
+          <section class="container-fulid">
+            <footer class="site-footer pt-5 text-white" style="background-color: black; ">
+              <div class="container py-4">
+                <div class="row g-4">
+                    
+                  <!--brand-social-contact-->
+                  <div class="col-lg-4 col-md-6">
+                    <img src="canon-logo-d87d3133289dae21ded89f1d268f37d5.png" alt="canon" height="34" class="mb-3">
+                    <p class="mb-3">Canon Inc. is a Japanese multinational corporation specializing in optical, imaging, and industrial products, including cameras, lenses, printers, and medical equipment. You can explore their official About Canon page to learn more about their corporate structure and global vision.</p>
+                    <div class="d-flex gap-3">
+                      <a href="#" class="social-btn"><i class="fa-brands fa-square-facebook text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-twitter text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-square-instagram text-danger"></i></a>
+                      <a href="#" class="social-btn"><i class="fa-brands fa-youtube text-danger"></i></a>
+                    </div>
+                  </div>
+                          
+                  <!--shop-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Shop</h4>
+                    <ul class="list-unstyled footer-links">
+                      <li><a href="shop.html" class="text-decoration-none text-white">All Products</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Photography</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Printing</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Scanning</a></li>
+                      <li><a href="shop.html" class="text-decoration-none text-white">Cinematography Solutions</a></li>
+                    </ul>
+                  </div>
+
+                  <!--company-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled footer-links text-decoration-none">
+                      <li><a href="about.html" class="text-decoration-none text-white">About Us</a></li>
+                      <li><a href="blog.html" class="text-decoration-none text-white">Blog</a></li>
+                      <li><a href="contact.html" class="text-decoration-none text-white">Contact</a></li>
+                      <li><a href="faq.html" class="text-decoration-none text-white">FAQ</a></li>
+                    </ul>
+                  </div>
+                          
+                  <!--account-->
+                  <div class="col-lg-2 col-md-6 col-6">
+                    <h4>Account</h4>
+                    <ul class="list-unstyled footer-links text-decoration-none">
+                      <li><a href="login.html" class="text-decoration-none text-white">Login</a></li>
+                      <li><a href="register.html" class="text-decoration-none text-white">Register</a></li>
+                      <li><a href="cart.html" class="text-decoration-none text-white">Cart</a></li>
+                      <li><a href="wishlist.html" class="text-decoration-none text-white">Wishlist</a></li>
+                    </ul>
+                  </div>
+ 
+                  <!--newsletter-->
+                  <div class="col-lg-2 col-md-6">
+                    <h4>Newsletter</h4>
+                    <p class="small mb-2">Get gadget drops &amp; deals in your inbox.</p>
+                    <form class="js-newsletter-form">
+                      <div class="input-group input-group-sm mb-2">
+                        <input type="email" class="form-control" placeholder="Your email" required>
+                        <button class="btn btn-danger" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                      </div>
+                      <div class="newsletter-msg small text-success d-none"></div>
+                    </form>
+                  </div>
+ 
+                </div>
+              </div>
+ 
+              <!--footer-bottom-->
+              <div class="footer-bottom" >
+                <div class="payment-icons" style="display: flex; justify-content: center;"><i class="fa-brands fa-cc-visa p-3"></i><i class="fa-brands fa-cc-paypal p-3"></i><i class="fa-brands fa-apple p-3"></i><i class="fa-brands fa-google p-3"></i></div>
+                <div class="container py-3 d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+                  <div class="footer-credit">&copy; 2026 Canon. All rights reserved. Website by <a href="https://in.canon/en/consumer" class="text-danger" target="_blank" rel="noopener">Canon India.</a></div>
+                </div>
+              </div>
+                      
+            </footer>
+          </section>
+                  
+          </main>
+          <!--=================
+                shop-page-END
+          ==================-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
